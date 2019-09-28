@@ -22,8 +22,6 @@ def run_test(exec_name, input_file):
     os.system(f'{exec_name} < {input_file} > actual.out')
 
 
-if __name__ == '__main__':
-    main()
 def print_answers (self, input_file_names):
     outf = open(input_folder + "answers.txt")
     for (file in input_file_names)
@@ -31,3 +29,7 @@ def print_answers (self, input_file_names):
         with open(outf, 'w') as fin:
             print(fin.read())
         inf.close()
+
+
+if __name__ == '__main__':
+    main()
