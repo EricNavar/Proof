@@ -17,3 +17,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+def print_answers (self, input_file_names):
+    outf = open(input_folder + "answers.txt")
+    for (file in input_file_names)
+        inf = open(input_folder + file)
+        with open(outf, 'w') as fin:
+            print(fin.read())
+        inf.close()
